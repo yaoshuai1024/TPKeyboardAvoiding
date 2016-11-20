@@ -1,0 +1,11 @@
+功能说明：
+有的时候，点击输入框，弹出键盘，键盘把输入框挡住了。怎么解决了？
+
+
+解决方法：
+1、把“TPKeyboardAvoiding”文件夹拖入项目
+2、前提：输入框所在父视图必须的scrollView/tableView/collectionView
+3、把父视图的类型对应修改为
+TPKeyboardAvoidingScrollView/TPKeyboardAvoidingTableView/TPKeyboardAvoidingCollectionView
+4、完成
+5、这时候，点击输入框的时候，可以发现，弹出键盘的时候，输入框会移动至键盘的上面
